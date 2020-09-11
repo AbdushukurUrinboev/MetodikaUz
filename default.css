@@ -274,13 +274,11 @@ hr {
 /* Banner Style */
 
 #banner-wrapper {
-	overflow: hidden;
 	height: 350px;
 	background: url(images/img02.jpg) repeat;
 }
 
 #banner {
-	overflow: hidden;
 	width: 1000px;
 	height: 350px;
 	margin: 0px auto;
@@ -332,4 +330,18 @@ ul.style1 a:hover {
 ul.style1 .first {
 	padding-top: 0px;
 	border-top: none;
+}
+
+#banner-wrapper{
+	padding-bottom: 23.2%;
+}
+
+
+.carousel .view .mask {
+	background-color: unset;
+	box-shadow: 0 0 100px #fff inset;
+}
+
+#logo {
+	z-index: 2;
 }
