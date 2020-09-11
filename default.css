@@ -31,10 +31,6 @@ p, ol, ul {
 p, ol {
 	line-height: 180%;
 }
-
-strong {
-}
-
 a {
 	color: #0000FF;
 }
@@ -45,9 +41,6 @@ a:hover {
 
 a img {
 	border: none;
-}
-
-img.border {
 }
 
 img.alignleft {
@@ -67,9 +60,6 @@ hr {
 }
 
 /** WRAPPER */
-
-#wrapper {
-}
 
 .container {
 	width: 1000px;
@@ -252,8 +242,6 @@ hr {
 	color: #717171;
 }
 
-#footer-content a {
-}
 
 #footer-content h2 {
 	margin: 0px;
@@ -296,7 +284,6 @@ hr {
 	width: 1000px;
 	height: 350px;
 	margin: 0px auto;
-	background: url(images/img03.jpg) no-repeat left top;
 	z-index: -1;
 }
 
