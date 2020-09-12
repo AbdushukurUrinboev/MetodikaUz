@@ -332,10 +332,6 @@ ul.style1 .first {
 	border-top: none;
 }
 
-#banner-wrapper{
-	padding-bottom: 23.2%;
-}
-
 
 .carousel .view .mask {
 	background-color: unset;
@@ -344,4 +340,22 @@ ul.style1 .first {
 
 #logo {
 	z-index: 2;
+}
+
+
+.carousel-friends .item:hover {
+	box-shadow: 2px 2px 10px 0px #333;
+	cursor: pointer;
+}
+
+.carousel-friends .item {
+	border: 1px solid unset;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 10px;
+	transition: 0.2s ease;
+}
+
+#banner-wrapper{
+	padding-bottom: 23.2%;
 }
