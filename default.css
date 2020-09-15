@@ -154,6 +154,12 @@ hr {
 
 #page-wrapper {
 	overflow: hidden;
+	background: url(images/img02.jpg) repeat;
+
+}
+
+.post-slider {
+	background: url(images/img02.jpg) repeat;
 }
 
 #page {
@@ -209,9 +215,21 @@ hr {
 
 #footer {
 	height: 100px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 50px 0px 15px 0px;
 	font-family: 'Abel', sans-serif;
+	background: #035F8B url(images/img01.png) repeat;
+	background-image: url(images/img01.png);
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: repeat;
+	background-repeat-y: repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(3, 95, 139);
 }
 
 #footer p {
@@ -233,6 +251,7 @@ hr {
 #footer-wrapper {
 	background: url(images/img02.jpg) repeat;
 }
+
 
 #footer-content {
 	overflow: hidden;
@@ -281,8 +300,12 @@ hr {
 #banner {
 	width: 1000px;
 	height: 350px;
-	margin: 0px auto;
+	margin: 0px auto;	
 	z-index: -1;
+}
+
+.banner-news {
+	margin-top: 42px !important;
 }
 
 /* Button Style */
@@ -360,4 +383,19 @@ ul.style1 .first {
 	padding-bottom: 90px;
 	box-sizing: unset;
 	overflow: hidden;
+}
+.contact-margin{
+	margin-bottom: 115px;
+}
+
+.margin-contactme{
+	margin-top: 65px;
+}
+
+.overlay {
+	height: 550px !important;
+}
+
+.testimony-section .img-bg {
+	height: 550px;
 }

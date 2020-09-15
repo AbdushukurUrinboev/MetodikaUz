@@ -11,33 +11,37 @@
 	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css' />
 	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
 		integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q=="
 		crossorigin="anonymous" />
+		<link rel="stylesheet" href="css/newsanimate.css">
 	<link rel="stylesheet" href="css/stylePopular.css">
-	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/stylenews.css">
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 
 <body>
 	<div id="header">
 		<div id="logo">
-			<a href="#"> </a>
+		  <a href="#"> </a>
 		</div>
 		<div id="menu">
-			<ul>
-				<li class="current_page_item"><a href="index.html" accesskey="1" title="">Homepage</a></li>
-				<li><a href="#" accesskey="2" title="">Products</a></li>
-				<li><a href="#" accesskey="3" title="">About Us</a></li>
-				<li><a href="#" accesskey="4" title="">Careers</a></li>
-				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
-				<li><a href="login/index.html" accesskey="5" title="">Login</a></li>
-			</ul>
-		</div>
-	</div>
+				<ul>
+					<li class="current_page_item"><a href="index.html" accesskey="1" title="">Homepage</a></li>
+					<li><a href="subjectsPage.html" accesskey="2" title="">Products</a></li>					
+					<li><a href="contact.html" accesskey="5" title="">Contact Us</a></li>
+					
+					<li><a href="login/index.html" accesskey="5" title="">Login</a></li>
+					<li><a style="padding: 0px 0px 0px 20px;" href="" style="text-transform: capitalize;"><img width="30px" style="margin-bottom: 5px;" src="images/cart.svg" alt=""></a></li>
+				</ul>
+				
+			</div>
+	  </div>
 	<div id="banner-wrapper">
 		<div id="banner">
 			<!--Carousel Wrapper-->
@@ -85,42 +89,109 @@
 			<!--/.Carousel Wrapper-->
 		</div>
 	</div>
-	<div id="page-wrapper">
+	<!-- <div id="page-wrapper">
 		<div id="page">
-			<div id="content">
-				<div>
-					<h2>Nulla luctus eleifend</h2>
-					<p class="subtitle">Integer sit amet pede vel arcu aliquet pretium</p>
-					<p>This is <strong>OpenHouse </strong>, a free, fully standards-compliant CSS template designed by
-						<a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from
-						<a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a
-							href="http://templated.co/license">Creative Commons Attribution</a> license, so you're
-						pretty much free to do whatever you want with it (even use it commercially) provided you give us
-						credit for it. Have fun :) </p>
-					<p class="button-style"><a href="#">More Details</a></p>
-				</div>
-			</div>
-			<div id="sidebar">
-				<h2>Maecenas lectus</h2>
-				<ul class="style1">
-					<li class="first">
-						<p><a href="#">Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum.
-								Integer nisl risus, sagittis convallis, rutrum congue.</a></p>
-					</li>
-					<li>
-						<p><a href="#">Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum.
-								Integer nisl risus, sagittis convallis, rutrum congue.</a></p>
-					</li>
-					<li>
-						<p><a href="#">Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum.
-								Integer nisl risus, sagittis convallis, rutrum congue.</a></p>
-					</li>
-				</ul>
-			</div>
+			<div id="content"> -->
+				<!-- News section -->
+				<section class="ftco-section testimony-section ftco-no-pb" id="testimonial-section">
+					<div class="img img-bg border" style="background-image: url(images/bg_4.jpg);"></div>
+					<div class="overlay"></div>
+				  <div class="containerNews">
+					<div class="row justify-content-center mb-5">
+					  <div class="col-md-12 text-center heading-section heading-section-white ftco-animate">						  
+						<h2 class="mb-3">NEWS</h2>
+					  </div>
+					</div>
+					<div class="row ftco-animate">
+					  <div class="col-md-12">
+						<div class="carousel-testimony owl-carousel ftco-owl">
+						  <div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+							  <div class="text">
+								<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+								<div class="d-flex align-items-center">
+									<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+									<div class="pl-3">
+										<p class="name">Abdushukur</p>
+										<span class="position">Marketing Manager</span>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+							  <div class="text">
+								<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+								<div class="d-flex align-items-center">
+									<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+									<div class="pl-3">
+										<p class="name">Shakhbozbek</p>
+										<span class="position">Marketing Manager</span>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+							  <div class="text">
+								<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+								<div class="d-flex align-items-center">
+									<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+									<div class="pl-3">
+										<p class="name">Akhrorbek</p>
+										<span class="position">Marketing Manager</span>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+							  <div class="text">
+								<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+								<div class="d-flex align-items-center">
+									<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+									<div class="pl-3">
+										<p class="name">Samandar</p>
+										<span class="position">Marketing Manager</span>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+							  <div class="text">
+								<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+								<div class="d-flex align-items-center">
+									<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+									<div class="pl-3">
+										<p class="name">Mokhinur</p>
+										<span class="position">Marketing Manager</span>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</section>
+				<!-- /.News section -->
+			<!-- </div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="page-wrapper">
+		<div id="page-wrapper">
 
 		<!-- Post Slider -->
 		<div class="post-slider">
@@ -132,7 +203,7 @@
 				<i class="fas fa-chevron-right prev"></i>
 				<div class="post-wrapper">
 					<div class="post">
-						<div class="col-md-6">
+						<div class="col-md-6-lg-3">
 							<div class="volunteer">
 								<div class="img" style="background-image: url(images/team-1.jpg);"></div>
 								<div class="text text-1">
@@ -143,7 +214,7 @@
 						</div>
 					</div>
 					<div class="post">
-						<div class="col-md-6">
+						<div class="col-md-6-lg-3">
 							<div class="volunteer">
 								<div class="img" style="background-image: url(images/team-2.jpg);"></div>
 								<div class="text text-2">
@@ -154,7 +225,7 @@
 						</div>
 					</div>
 					<div class="post">
-						<div class="col-md-6">
+						<div class="col-md-6-lg-3">
 							<div class="volunteer">
 								<div class="img" style="background-image: url(images/team-1.jpg);"></div>
 								<div class="text text-1">
@@ -165,7 +236,7 @@
 						</div>
 					</div>
 					<div class="post">
-						<div class="col-md-6">
+						<div class="col-md-6-lg-3">
 							<div class="volunteer">
 								<div class="img" style="background-image: url(images/team-3.jpg);"></div>
 								<div class="text text-3">
@@ -176,7 +247,7 @@
 						</div>
 					</div>
 					<div class="post">
-						<div class="col-md-6">
+						<div class="col-md-6-lg-3">
 							<div class="volunteer">
 								<div class="img" style="background-image: url(images/team-1.jpg);"></div>
 								<div class="text text-1">
@@ -187,89 +258,31 @@
 						</div>
 					</div>
 					<div class="post">
-						<div class="col-md-6">
+						<div class="col-md-6-lg-3">
 							<div class="volunteer">
 								<div class="img" style="background-image: url(images/team-4.jpg);"></div>
 								<div class="text text-4">
 									<h3>Max Love</h3>
 									<span>Volunteer</span>
 								</div>
-
-	<!-- Popular Page -->
-	<div id="footer-wrapper">
-		<div id="footer-content">			
-			<section class="ftco-section ftco-no-pt">
-				<div class="container">
-					<div class="val">
-						<span class="subheading"></span>
-						<h1>Popular</h1>
-					</div>
-				</div>
-				<div class="row abb">
-					<div class="col-md-6 col-lg-3">
-						<div class="volunteer">
-							<div class="img" style="background-image: url(images/team-1.jpg);"></div>
-							<div class="text text-1">
-								<h3>Alex Martin</h3>
-								<span>Volunteer</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
-						<div class="volunteer">
-							<div class="img" style="background-image: url(images/team-2.jpg);"></div>
-							<div class="text text-2">
-								<h3>Cedrick Brown</h3>
-								<span>Volunteer</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
-						<div class="volunteer">
-							<div class="img" style="background-image: url(images/team-3.jpg);"></div>
-							<div class="text text-3">
-								<h3>John Wick</h3>
-								<span>Volunteer</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
-						<div class="volunteer">
-							<div class="img" style="background-image: url(images/team-4.jpg);"></div>
-							<div class="text text-4">
-								<h3>Max Love</h3>
-								<span>Volunteer</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End of Post Slider -->
-
-
-	</div>
-		</div>
-		</section>
-		
 	</div>
 	</div>
 	<!-- Popular Page finished -->
+	<link href="contact.html" rel="import" />
 
 	<div id="footer">
-		<p>&copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.
-			Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+		<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This site is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://opus.uz" target="_blank">Codemy</a></p>
 	</div>
 </body>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-migrate-3.0.1.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-	integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-	crossorigin="anonymous"></script>
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"
 	integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
 	crossorigin="anonymous"></script>
@@ -279,10 +292,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
 	integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw=="
 	crossorigin="anonymous"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/scrollax.min.js"></script>
 <!-- Slick corusel -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/popular.js"></script>
-<script src="js/main.js"></script>
-<script src="js/main.js"></script>
+<!-- <script src="js/main.js"></script> -->
+<script src="js/news.js"></script>
 
 </html>
