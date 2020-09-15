@@ -9601,7 +9601,8 @@ textarea.form-control {
 
 .testimony-section {
   position: relative;
-  background: #2e579d; }
+  /* background: #035F8B;  */
+}
   .testimony-section .owl-carousel {
     margin: 0; }
   .testimony-section .owl-carousel .owl-stage-outer {

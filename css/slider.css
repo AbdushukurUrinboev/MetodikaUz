@@ -4,17 +4,15 @@
 }
 
 .post-slider .slider-titel {
+    color: #035F8B;
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
+    font-weight: 700;
     margin: 50px auto;
-    margin-bottom: 100px;
+    margin-bottom: 136px;
     height: 20px;
     padding-top: 30px;
-    font-family: 'Teko', sans-serif;
-}
-
-.post-slider .slider-titel div{
-    box-shadow: 5px 5px 10px #333;
+    font-family: 'Oswald', sans-serif;
 }
 
 .post-slider .next, .post-slider .prev {
@@ -43,7 +41,9 @@
     height: 350px;
     margin: 0px 10px;
     display: inline-block;
-    background: white;
+    overflow: hidden;
+	background: url(images/img02.jpg) repeat;
+
 }
 
 
